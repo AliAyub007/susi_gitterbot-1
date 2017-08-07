@@ -6,8 +6,8 @@ var emptyMessage = " \n";
 
 // To bind a port on heroku 
 https.createServer(function (request, response) {
-  console.log("listening on port "+(process.env.PORT || 5000));
-}).listen(process.env.PORT || 5000);
+  console.log("listening on port "+(process.env.PORT || 8080));
+}).listen(process.env.PORT || 8080);
   
 // Setting the options variable to use it in the https request block
 var options = {
