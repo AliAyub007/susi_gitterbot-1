@@ -1,6 +1,6 @@
 #!/bin/bash
-git clone ${REPOSITORY} susi_hangoutbot
-cd susi_hangoutbot
+git clone ${REPOSITORY} susi_gitterbot
+cd susi_gitterbot
 git checkout ${BRANCH}
 
 if [ -v COMMIT_HASH ]; then
