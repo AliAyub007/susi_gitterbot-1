@@ -13,6 +13,11 @@ spec:
       containers:
       - name: susi-gitterbot
         image: fossasia/susi_gitterbot:latest-master
+        env:
+        - name: ROOM_ID
+          value: "599ff8bcd73408ce4f72eb8c"
+        - name: TOKEN
+          value: "22ede136e4a0a8ba46c7608a1072124c2ecd7efc"
         ports:
         - containerPort: 8080
           protocol: TCP
