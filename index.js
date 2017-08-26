@@ -80,7 +80,7 @@ var req = https.request(options, function(res) {
                                 headers: 
                                 {
                                   'authorization': 'Bearer '+ token ,
-                                  'content-type': 'application/json',
+                                  'Content-type': 'application/json',
                                   'accept': 'application/json'
                                 },
                                 body: 
