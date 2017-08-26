@@ -17,7 +17,7 @@ spec:
         - name: ROOM_ID
           value: "59345f93d73408ce4f64a22d"
         - name: TOKEN
-          value: “b16b378c0f68bc92c7ea980e0dbbc9e616dfc7a9"
+          value: "b16b378c0f68bc92c7ea980e0dbbc9e616dfc7a9"
         ports:
         - containerPort: 8080
           protocol: TCP
