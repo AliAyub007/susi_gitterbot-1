@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: susi-gitterbot
-        image: fossasia/susi_gitterbot:0483cb76527bdcba8dfec2cad19fb2c4ff513929
+        image: fossasia/susi_gitterbot:latest-master
         ports:
         - containerPort: 8080
           protocol: TCP
