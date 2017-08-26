@@ -15,9 +15,9 @@ spec:
         image: fossasia/susi_gitterbot:latest-master
         env:
         - name: ROOM_ID
-          value: "599ff8bcd73408ce4f72eb8c"
+        value: "59345f93d73408ce4f64a22d"
         - name: TOKEN
-          value: "22ede136e4a0a8ba46c7608a1072124c2ecd7efc"
+        value: “b16b378c0f68bc92c7ea980e0dbbc9e616dfc7a9"
         ports:
         - containerPort: 8080
           protocol: TCP
