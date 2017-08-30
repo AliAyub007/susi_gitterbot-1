@@ -24,7 +24,7 @@ var req = https.request(options, function(res) {
     var msg = chunk.toString();
     if(msg != emptyMessage){
       var jsonMsg = JSON.parse(msg);
-       if(jsonMsg.fromUser.displayName != 'SusiAI'){
+       if(jsonMsg.fromUser.displayName != 'susiai'){
         // The message sent to Susi AI gitter room by the client.
 
         var clientMsg = jsonMsg.text;

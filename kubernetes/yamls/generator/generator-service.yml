@@ -1,13 +1,13 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: susi-gitterbot
-  namespace: gitterbot
+  name: susi-gitterbot1
+  namespace: gitterbot1
 spec:
   ports:
   - port: 8080
     protocol: TCP
     targetPort: 8080
   selector:
-    app: susi-gitterbot
+    app: susi-gitterbot1
   type: LoadBalancer
