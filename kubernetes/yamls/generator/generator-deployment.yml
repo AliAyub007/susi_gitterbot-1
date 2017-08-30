@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: susi-gitterbot1
-        image: aliayubkhan/susi_gitterbot:latest
+        image: aliayubkhan/susi_gitterbot1:latest
         env:
         - name: ROOM_ID
           value: "59a695bcd73408ce4f739399"
